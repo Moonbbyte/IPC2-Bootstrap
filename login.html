@@ -6,11 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="icon" href="images/logo.png">
 
-    <title>Hello, world!</title>
+    <title>Login</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="bg-dark text-white">
+  	<div class="bg-image" 
+     style="background-image: url('images/fondo2.jpg');
+            height: 100vh">
+     	<h1 class="display-2 bg-dark text-white mb-5" align="right">Iniciar Sesión</h1>
+     	<div align="center">
+    		<form>
+    			<label for="name">Nombre Completo: </label>
+    			<input type="text" name="nombre" id="name" class="mb-5 mt-5 " placeholder="Escribir el nombre completo"><br>
+    			<label for="contra">Constraseña: </label>
+    			<input type="password" class="mt-2 mb-4" name="contraseña" id="contra" placeholder="Contraseña">
+    		</form>
+    		<button class="btn btn-outline-success mt-3"> Iniciar Sesion</button>
+    	</div>
+	</div>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -20,7 +35,7 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!---->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    
+
     <script src="js/bootstrap.min.js" ></script>
     
   </body>
